@@ -1,0 +1,650 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Computer Science - Atlas Revision</title>
+		
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/progress.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+		<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+	</head>
+	<body class="is-preload">
+
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">Atlas Revision</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index.html">Index</a></li>
+							<li class="active"><a href="cs.html">Computer Science</a></li>
+							<li><a href="elements.html">Elements Reference</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+				<!-- Main -->
+					<div id="main">
+						<!-- Post -->
+							<section class="post">
+								<header class="major">
+									<span class="date">November 28, 2020</span>
+									<h1>IGCSE<br />
+									Computer Science</h1>
+									<!-- <p>Aenean ornare velit lacus varius enim ullamcorper proin aliquam<br />
+									facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor<br />
+									amet nullam sed etiam veroeros.</p> -->
+								</header>
+								<!-- <div class="image main"><img src="images/pic01.jpg" alt="" /></div> -->
+								
+								<h2 id="binary-systems" style="color:#5411AB;">Binary Systems</h2>
+								<p>A binary digit is refered to as a BIT, 8 bits is a byte.
+								Byte is used to measure memory size. </p>
+								<table>
+								<thead>
+								<tr>
+									
+								<th style="text-align:center">Name of memory size</th>
+								<th>No. of Bits</th>
+								<th style="text-align:center">Equivalent Denary Value</th>
+								</tr>
+								</thead>
+								<tbody>
+								<tr>
+								<td style="text-align:center">1 kilobyte (1KB)</td>
+								<td>\(2^{10}\)</td>
+								<td style="text-align:center">1 024 bytes</td>
+								</tr>
+								<tr>
+								<td style="text-align:center">2 megabyte (1MB)</td>
+								<td>\(2^{20}\)</td>
+								<td style="text-align:center">1 048 576 bytes</td>
+								</tr>
+								<tr>
+								<td style="text-align:center">1 gigabyte (1GB)</td>
+								<td>\(2^{30}\)</td>
+								<td style="text-align:center">1 073 741 824 bytes</td>
+								</tr>
+								<tr>
+								<td style="text-align:center">1 terabyte (1TB)</td>
+								<td>\(2^{40}\)</td>
+								<td style="text-align:center">1 099 511 627 776 bytes</td>
+								</tr>
+								<tr>
+								<td style="text-align:center">1 petabyte (1PB)</td>
+								<td>\(2^{50}\)</td>
+								<td style="text-align:center">1 125 899 906 842 624 bytes</td>
+								</tr>
+								</tbody>
+								</table>
+								<p>A register is a group of bits, often depicted as:</p>
+								<ul>
+								<li>\(10010111\)</li>
+								</ul>
+								<h3 id="example-use-of-binary">Example use of binary</h3>
+								<ul>
+								<li><p>Robotics</p>
+								</li>
+								<li><p>Digital instruments</p>
+								</li>
+								<li><p>Counting systems</p>
+								</li>
+								</ul>
+								<h2 id="hexadecimal" style="color:#5411AB";>Hexadecimal</h2>
+								<p>Closely related to the binary system.
+								Hexadecimal is a base 16 system.
+								Numbers 0 to 9 and letters A to Fare used to represent each hexadecimal digit.</p>
+								<p>\(A =10,  B = 11,  C = 12,  D = 13,  E = 14,  F = 15\)</p>
+								<table><thead><tr><th>Hexadecimal Value</th><th>Denary Value</th></tr></thead><tbody><tr><td>0</td><td>0</td></tr><tr><td>1</td><td>1</td></tr><tr><td>2</td><td>2</td></tr><tr><td>3</td><td>3</td></tr><tr><td>4</td><td>4</td></tr><tr><td>5</td><td>5</td></tr><tr><td>6</td><td>6</td></tr><tr><td>7</td><td>7</td></tr><tr><td>8</td><td>8</td></tr><tr><td>9</td><td>9</td></tr><tr><td>A</td><td>10</td></tr><tr><td>B</td><td>11</td></tr><tr><td>C</td><td>12</td></tr><tr><td>D</td><td>13</td></tr><tr><td>E</td><td>14</td></tr><tr><td>F</td><td>15</td></tr></tbody></table>
+								<h4 id="converting-binary-to-hexadecimal">Converting Binary to Hexadecimal</h4>
+								<p>Q. Convert binary number 01100001 to hexadecimal</p>
+								<p>1. Separate into two nibbles (4 bits)</p>
+								<ul>
+								<li>\(0110\)</li>
+								<li>\(0001\)</li>
+								</ul>
+								<p>2. Convert nibbles to denary</p>
+								<table>
+								<thead>
+								<tr>
+								<th style="text-align:center">8</th>
+								<th>4</th>
+								<th style="text-align:center">2</th>
+								<th>1</th>
+								</tr>
+								</thead>
+								<tbody>
+								<tr>
+								<td style="text-align:center">0</td>
+								<td>1</td>
+								<td style="text-align:center">1</td>
+								<td>0</td>
+								</tr>
+								</tbody>
+								</table>
+								<p>6</p>
+								<table>
+								<thead>
+								<tr>
+								<th style="text-align:center">8</th>
+								<th>4</th>
+								<th style="text-align:center">2</th>
+								<th>1</th>
+								</tr>
+								</thead>
+								<tbody>
+								<tr>
+								<td style="text-align:center">0</td>
+								<td>0</td>
+								<td style="text-align:center">0</td>
+								<td>1</td>
+								</tr>
+								</tbody>
+								</table>
+								<p>1</p>
+								<p>\(= 61\)</p>
+								<p>4. Change denary numbers to hex if needed (e.g. 10 = A)</p>
+								<p>\(= 61\)</p>
+								<h4 id="converting-hexadecimal-to-binary">Converting Hexadecimal to Binary</h4>
+								<p>Q. Convert hex value 6C to binary.</p>
+								<ul>
+								<li>Change hex value to denary numbers (e.g. 12 = C)</li>
+								</ul>
+								<table>
+								<thead>
+								<tr>
+								<th>6</th>
+								<th>C</th>
+								</tr>
+								</thead>
+								<tbody>
+								<tr>
+								<td>6</td>
+								<td>12</td>
+								</tr>
+								</tbody>
+								</table>
+								<ul>
+								<li>Separate hex value and convert to 4 bit binary value</li>
+								</ul>
+								<p>\(6 = 4 + 2\)</p>
+								<table>
+								<thead>
+								<tr>
+								<th>8</th>
+								<th>4</th>
+								<th>2</th>
+								<th>1</th>
+								</tr>
+								</thead>
+								<tbody>
+								<tr>
+								<td>0</td>
+								<td>1</td>
+								<td>1</td>
+								<td>0</td>
+								</tr>
+								</tbody>
+								</table>
+								<p>\(12 = 8 + 4\)</p>
+								<table>
+								<thead>
+								<tr>
+								<th>8</th>
+								<th>4</th>
+								<th>2</th>
+								<th>1</th>
+								</tr>
+								</thead>
+								<tbody>
+								<tr>
+								<td>1</td>
+								<td>1</td>
+								<td>0</td>
+								<td>0</td>
+								</tr>
+								</tbody>
+								</table>
+								<ul>
+								<li>Put the two nibbles together to form an 8 bit binary</li>
+								</ul>
+								<p>\(0 1 1 0    1 1 0 0\)</p>
+								<h4 id="converting-hexadecimal-to-denary">Converting Hexadecimal to Denary</h4>
+								<p>Q. To convert hex value \(2B\) to denary.</p>
+								<ul>
+								<li>Split the hex value into two</li>
+								</ul>
+								<table>
+								<thead>
+								<tr>
+								<th>2</th>
+								<th>b</th>
+								</tr>
+								</thead>
+								<tbody>
+								<tr>
+								<td>2</td>
+								<td>11</td>
+								</tr>
+								</tbody>
+								</table>
+								<ul>
+								<li>Convert each number to binary</li>
+								</ul>
+								<p>\(2 = 2\)</p>
+								<table>
+								<thead>
+								<tr>
+								<th>8</th>
+								<th>4</th>
+								<th>2</th>
+								<th>1</th>
+								</tr>
+								</thead>
+								<tbody>
+								<tr>
+								<td>0</td>
+								<td>0</td>
+								<td>1</td>
+								<td>0</td>
+								</tr>
+								</tbody>
+								</table>
+								<p>\(11 = 8 + 2 + 1\)</p>
+								<table>
+								<thead>
+								<tr>
+								<th>8</th>
+								<th>4</th>
+								<th>2</th>
+								<th>1</th>
+								</tr>
+								</thead>
+								<tbody>
+								<tr>
+								<td>1</td>
+								<td>0</td>
+								<td>1</td>
+								<td>1</td>
+								</tr>
+								</tbody>
+								</table>
+								<ul>
+								<li>Put the two binary numbers together</li>
+								</ul>
+								<p>\(0 0 1 0 1 0 1 1\)</p>
+								<ul>
+								<li>Convert to denary</li>
+								</ul>
+								<table>
+								<thead>
+								<tr>
+								<th>128</th>
+								<th>64</th>
+								<th>32</th>
+								<th>16</th>
+								<th>8</th>
+								<th>4</th>
+								<th>2</th>
+								<th>1</th>
+								</tr>
+								</thead>
+								<tbody>
+								<tr>
+								<td>0</td>
+								<td>0</td>
+								<td>1</td>
+								<td>0</td>
+								<td>1</td>
+								<td>0</td>
+								<td>1</td>
+								<td>1</td>
+								</tr>
+								</tbody>
+								</table>
+								<p>\(32 + 8 + 2 + 1 = 43\)</p>
+								<h2 id="use-of-the-hexadecimal-system" style="color:#5411AB;">Use of the Hexadecimal System</h2>
+								<h4 id="examples-">Examples:</h4>
+								<ul>
+								<li>Defining colours in Hypertext Markup Language (HTML).</li>
+								<li>Media Access Control (MAC) addresses.</li>
+								<li>Assembly languages and machine code.</li>
+								<li>Debugging.</li>
+								</ul>
+								<h4 id="memory-dumps-">Memory Dumps:</h4>
+								<ul>
+								<li>Hexadecimal is used when developing new software or when trying to trace errors.</li>
+								<li>Memory dump is when the memory contents are output to a printer, monitor.</li>
+								</ul>
+								<h4 id="assembly-code-and-machine-code-low-level-languages-">Assembly code and machine code (low level languages):</h4>
+								<ul>
+								<li>Computer memory is machine code/ assembly code.</li>
+								<li>Using hexadecimal makes it easier, faster, less error prone to write code compared to binary.</li>
+								<li>Using machine code (binary) takes a long time to key in values and prone to errors.</li>
+								</ul>								
+								<h2 id="error-checking" style="color:#5411AB;">Error Checking</h2>
+								<h4 id="parity-checking-">Parity Checking:</h4>
+								<ul>
+								<li><p>Parity checking is used to check weather data has been changed or corrupted following transmission from one device to another.</p>
+								</li>
+								<li><p>A byte is an allocated parity bit:</p>
+								<ul>
+								<li>Systems that use even parity have an even number of 1-bits</li>
+								<li>Systems that use odd parity have an even number of 1-bits</li>
+								</ul>
+								</li>
+								</ul>
+								<h4 id="automatic-repeat-request-arq-">Automatic Repeat Request (ARQ):</h4>
+								<ul>
+								<li>ARQ is another method to check if data has been transmitted correctly.</li>
+								<li>It uses acknowledgement (message sent by the receiver indicating that data has been received correctly).</li>
+								</ul>
+								<h4 id="checksum-">Checksum:</h4>
+								<ul>
+								<li>Checksum is another way to see if data has been transmitted correctly.</li>
+								<li>Data is sent in blocks and an additional value sent at the end of the block.</li>
+								</ul>
+								<h4 id="echo-check-">Echo check:</h4>
+								<ul>
+								<li>When data is sent to another device, this data is sent back again to the sender.</li>
+								<li>The sender compares the two sets to check if any errors occurred.</li>
+								<li>Not reliable.</li>
+								</ul>
+								<h2 id="file-types" style="color:#5411AB;">File types</h2>
+								<h4 id="musical-instrument-digital-format-midi-">Musical Instrument Digital Format (MIDI)</h4>
+								<p>Used for storage of music files. It is a communications protocol that allows electronic musical instruments to interact with each other. It is stored as a series of demands but no actual music notes. It uses 8-bit serial transmission (asynchronous).</p>
+								<p>Each MIDI command has a sequence of bytes:</p>
+								<ul>
+								<li>First byte is the status byte – informs the MIDI device what function to preform</li>
+								<li>Encoded in the status byte is the MIDI channel (operates on 16 different channels)</li>
+								</ul>
+								<p>Examples of MIDI commands:</p>
+								<ul>
+								<li>Note on/off: indicates that a key has been pressed</li>
+								<li>Key pressure: indicates how hard it has been pressed (loudness of music)</li>
+								</ul>
+								<p>Its primary disadvantage is that it needs a lot of memory storage.</p>
+								<h4 id="mp3">MP3</h4>
+								<p>It uses technology known as Audio Compression to convert music and other sounds into an MP3 file format.</p>
+								<p>This compression reduces the normal file size by 90%:</p>
+								<ul>
+								<li>This is done using file compression algorithms which use Perceptual Music Shaping.</li>
+								<li>It removes sounds that human ear cannot hear properly.</li>
+								<li>Certain sounds are removed without affecting the quality too much.</li>
+								</ul>
+								<p>CD files are converted using File Compression Software and use lossy format as the original file is lost following the compression algorithm.</p>
+								<h4 id="mp4">MP4</h4>
+								<p>This format allows the storage of multimedia files rather than just sound such as:</p>
+								<ul>
+								<li>Music, videos, photos and animations.</li>
+								</ul>
+								<p>Videos, could be streamed without losing any real discernible quality.</p>
+								<h4 id="joint-photographic-experts-group-jpeg-">Joint Photographic Experts Group (JPEG)</h4>
+								<ul>
+								<li>JPEG is a file formats used to reduce photographic file sizes.</li>
+								<li>Reducing picture resolution is changing the number of pixels per centimetre.</li>
+								<li>When photographic file undergoes compression, file size is reduced.</li>
+								<li>JPEG will reduce the raw bitmap image by a factor between 5 and 15.</li>
+								</ul>
+								<h2 id="lossless-and-lossy-file-compression" style="color:#5411AB;">Lossless and Lossy File Compression</h2>
+								<h4 id="lossless-file-compression">Lossless File Compression</h4>
+								<ul>
+								<li>All the data bits from the original file are reconstructed when the file again is uncompressed.</li>
+								<li>Important for files where loss of data would be disastrous (spreadsheet).</li>
+								</ul>
+								<h4 id="lossy-file-compression">Lossy File Compression</h4>
+								<ul>
+								<li>The file compression algorithm eliminates unnecessary bits of data like MP3 and JPEG formats.</li>
+								<li>Impossible to get original file back once compressed.</li>
+								</ul>
+								<h2 id="communication-internet-technologies" style="color:#5411AB;">Communication &amp; Internet Technologies</h2>
+								<h4 id="transmission-of-data">Transmission of Data</h4>
+								<p>Asynchronous data transmission refers to data being transmitted in an agreed bit pattern</p>
+								<ul>
+								<li>Data bits are grouped together &amp; sent with control bits. This means the receiver of the data knows when the data starts and ends, prevents data getting mixed up</li>
+								</ul>
+								<p>Synchronous data transmission is a continuous stream of data (not in discrete groups like asynchronous)</p>
+								<ul>
+								<li>Ensures that the sender and receiver are synchronized with each other. This is the faster method of the two. </li>
+								</ul>
+								<h4 id="serial-parallel-transmission">Serial &amp; Parallel Transmission</h4>
+								<p>Serial data transmission is when data is sent one bit at a time over a single wire</p>
+								<ul>
+								<li>Works well over long distances</li>
+								<li>But data transmitted at a slower rate (USB)</li>
+								<li>Relatively cheap.</li>
+								</ul>
+								<p>Parallel data transmission is when data several bits (1 byte) are sent down several wires at the same time</p>
+								<ul>
+								<li>Works well over short distance.</li>
+								<li>Faster method (internal components use parallel for high speed).</li>
+								<li>Expensive compared to serial.</li>
+								</ul>
+								<h4 id="simplex-half-duplex-and-full-duplex">Simplex, Half-duplex and Full-duplex</h4>
+								<ul>
+								<li>Simplex data transmission is in one direction only (e.g. computer to printer).</li>
+								<li>Half-duplex data transmission is in both directions but not at the same time (e.g. phone conversation where only one person speaks).</li>
+								<li>Full-duplex data transmission is in both directions simultaneously (e.g. broadband connection on phone line).</li>
+								</ul>
+								<h4 id="universal-serial-bus-usb-">Universal Serial Bus (USB)</h4>
+								<p>USB is an asynchronous serial data transmission method.</p>
+								<p>It consists of:</p>
+								<ul>
+								<li>Four-wire shielded cable.</li>
+								<li>Two wires used for power and earth.</li>
+								<li>Two wires used in data transmission.</li>
+								</ul>
+								<table>
+								<thead>
+								<tr>
+								<th>Advantages</th>
+								<th>Disadvantages</th>
+								</tr>
+								</thead>
+								<tbody>
+								<tr>
+								<td>Automatically detected</td>
+								<td></td>
+								</tr>
+								<tr>
+								<td>Only fit one way, prevents incorrect connections</td>
+								<td>Maximum cable length is about 5 metres</td>
+								</tr>
+								<tr>
+								<td>Different data transmission rates</td>
+								<td>Transmission rate is less than 500 mb/sec</td>
+								</tr>
+								</tbody>
+								</table>
+								<h4 id="security-aspects">Security Aspects</h4>
+								<p><strong>Hacking:</strong></p>
+								<ul>
+								<li>The act of gaining illegal access to a computer system.</li>
+								</ul>
+								<p>Effect:</p>
+								<ul>
+								<li>Leads to identity theft, gaining personal information.</li>
+								<li>Data can be deleted, changed or corrupted.</li>
+								</ul>
+								<p>To remove risk:</p>
+								<ul>
+								<li>Firewalls.</li>
+								<li>Strong passwords/ user IDs.</li>
+								<li>Use of anti-hacking software.</li>
+								</ul>
+								<p><strong>Difference between hacking and cracking:</strong></p>
+								<ul>
+								<li>Hacking breaks into computer system to steal data.</li>
+								<li>Cracking is where someone edits a program code, malicious.</li>
+								</ul>
+								<p><strong>Viruses:</strong></p>
+								<ul>
+								<li>Program that can replicate itself with the intention of deleting or corrupting files, cause computer malfunction.</li>
+								</ul>
+								<p>Effect:</p>
+								<ul>
+								<li>Can cause computer to crash.</li>
+								<li>Can delete or corrupt files/data.</li>
+								</ul>
+								<p>To remove risk:</p>
+								<ul>
+								<li>Install anti-virus software.</li>
+								<li>Don’t use software from unknown sources.</li>
+								<li>Be careful when opening emails from unknown.</li>
+								</ul>
+								<p><strong>Wardriving:</strong></p>
+								<ul>
+								<li>The act of locating and using wireless internet connections illegally.</li>
+								</ul>
+								<p>Effects:</p>
+								<ul>
+								<li>Possible to steal internet time.</li>
+								<li>Possible to hack into wireless network and steal user’s password.</li>
+								</ul>
+								<p>To remove risk:</p>
+								<ul>
+								<li>Use complex passwords.</li>
+								<li>Firewalls.</li>
+								</ul>
+								<p><strong>Spyware:</strong></p>
+								<ul>
+								<li>Software that gathers info by monitoring key presses on the user’s keyboard and info is sent back.</li>
+								</ul>
+								<p>Effects:</p>
+								<ul>
+								<li>Access to all data entered.</li>
+								<li>Software is able to install other spyware, read cookie data.</li>
+								</ul>
+								<p>To remove risk:</p>
+								<ul>
+								<li>Use of anti-spyware software.</li>
+								<li>Use a mouse to select characters from passwords rather than typing them.</li>
+								</ul>
+								<h4 id="internet-principles-of-operation">Internet Principles of Operation</h4>
+								<p><strong>Internet Service Protocol:</strong></p>
+								<ul>
+								<li>These are companies that provide user with access to the internet Internet Protocol (IP) Address. Each device on the internet is given a unique address known as the IP address. 32-bit number written in the form: 109.108.158.1 . IP address gives the location of a device on the internet whereas the MAC address identifies the device connected to the internet. IP address changes, MAC address remains unchanged.</li>
+								</ul>
+								<p><strong>HTML (HyperText Mark-up Language):</strong></p>
+								<ul>
+								<li>Used when writing and developing pages. Mark-up language is used in the processing. Html use &#39;\<tags>&#39; to bracket piece of codes. Different intensity of colours is determined by its hexadecimal value.</li>
+								</ul>
+								<p><strong>Media Access Control (MAC):</strong></p>
+								<ul>
+								<li>MAC address refers to a number which uniquely identifies a device on the internet. Refers to the network interface card (NIC) which is part of the device. Usually made up of 48 bits shown as six groups of hexadecimal digits. </li>
+								<li>NN:NN:NN:DD:DD:DD</li>
+								<li>(NN:NN:NN) first half is the identity number of the manufacturer of the device.</li>
+								<li>(DD:DD:DD) second half is the serial number of the device.</li>
+								</ul>
+								<p><strong>Types of MAC Address:</strong></p>
+								<ul>
+								<li>Universally Administrated MAC Address (UAA). Locally Administrated MAC Address (LAA). </li>
+								<li>UAA is the most common type set by the manufacturer. </li>
+								<li>Reasons to change MAC address using LAA. <ul>
+								<li>To ensure they follow the correct formula. </li>
+								<li>To bypass MAC address filter on a router or a firewall. </li>
+								<li>To get past certain types of network restrictions. </li>
+								</ul>
+								</li>
+								</ul>
+								<p><strong>Web addresses:</strong></p>
+								<ul>
+								<li>Each character on the keyboard has its own ASCII code. Can be represented using hexadecimal or decimal values. Hexadecimal addresses are used in the address of files or webpages as a security figure. Takes longer to type in URL but advantage is that you are unlikely to fall into the trap of copying a fake website.</li>
+								</ul>
+								<p><strong>Cookies:</strong></p>
+								<ul>
+								<li>A packet of information sent by a web server to a web browser.</li>
+								<li>Generated each time the user visits the website.</li>
+								<li>Every time a user visits a website, cookies will have collected some key information about the user.</li>
+								<li>They are able to carry out user tracking and maintain user preferences.</li>
+								<li>Cookies are pieces of data.</li>
+								<li>Information gathered by cookies doesn’t contain personal information.</li>
+								</ul>
+
+								
+
+
+								
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<!-- <form method="post" action="#">
+								<div class="fields">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="text" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="3"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form> -->
+						</section>
+						<section class="split contact">
+							<section>
+								<h3>Email</h3>
+								<p><a href="#">info@untitled.tld</a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Thisas</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+			<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="assets/js/progress.js"></script>
+
+
+
+	</body>
+</html>
